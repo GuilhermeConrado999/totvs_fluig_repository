@@ -2,7 +2,7 @@
 
 Repositório dedicado ao armazenamento, organização e consulta de códigos, scripts e soluções desenvolvidas para a plataforma **TOTVS Fluig**. 
 
->  **Nota:** A grande maioria dos códigos aqui presentes foi desenvolvida com fins de estudo, prática e aprofundamento técnico, além de conteúdos oriundos dos treinamentos oficiais da **TOTVS Fluig Academy**. Sinta-se à vontade para utilizar, adaptar e contribuir!
+> 💡 **Nota:** A grande maioria dos códigos aqui presentes foi desenvolvida com fins de estudo, prática e aprofundamento técnico, além de conteúdos oriundos dos treinamentos oficiais da **TOTVS Fluig Academy**. Sinta-se à vontade para utilizar, adaptar e contribuir!
 
 ---
 
@@ -10,6 +10,7 @@ Repositório dedicado ao armazenamento, organização e consulta de códigos, sc
 
 Para consultas rápidas, padrões de desenvolvimento e diretrizes da plataforma, acesse os recursos oficiais abaixo:
 
+*   📚 **[TOTVS Fluig TDN (Documentação Oficial)](https://tdn.totvs.com/display/public/fluig/TOTVS+FLUIG)** — Central de documentação, manuais técnicos, guias de migração e referências da plataforma *(antigo dev.fluig.com)*.
 *   🌐 **[TOTVS Fluig LAB](https://lab.fluig.com/)** — Laboratório de inovação, exemplos e integração.
 *   🎨 **[TOTVS Fluig Style Guide](https://style.fluig.com/)** — Guia de estilos, componentes visuais e padrões de interface.
 
