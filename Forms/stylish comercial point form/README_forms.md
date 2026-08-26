@@ -10,17 +10,17 @@
 
 ## Sobre o Eventos de Fomulários:
 
-<img width="695" height="364" alt="image" src="https://github.com/user-attachments/assets/bb552356-2a67-465c-8464-891b01e9557b" />
-
 ## NEW > SCRIPT FLUIG
 
-<img width="525" height="507" alt="image" src="https://github.com/user-attachments/assets/ce93f3b2-e9cb-483c-9b56-efa3ac6576af" />
+<img width="695" height="364" alt="image" src="https://github.com/user-attachments/assets/bb552356-2a67-465c-8464-891b01e9557b" />
 
 ## SCRIPT EVENTO DA DEFINIÇÃO DE FORMULÁRIOS
 
-<img width="625" height="572" alt="image" src="https://github.com/user-attachments/assets/c069e42e-f63b-434d-9b34-3693c2d4c855" />
+<img width="525" height="507" alt="image" src="https://github.com/user-attachments/assets/ce93f3b2-e9cb-483c-9b56-efa3ac6576af" />
 
 ## VIDATE FORM (OU DISPLAYFIELDS, OU O QUE VOCE FOR USAR) + **FORMULÁRIO QUE VOCÊ CRIOU** , em seguida um arquivo java script será criado.
+
+<img width="625" height="572" alt="image" src="https://github.com/user-attachments/assets/c069e42e-f63b-434d-9b34-3693c2d4c855" />
 
 <img width="255" height="96" alt="image" src="https://github.com/user-attachments/assets/ddae51d3-9685-4490-b832-9a6816f0482e" />
 
