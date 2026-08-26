@@ -1,24 +1,22 @@
-
 function validateForm(form){
 	var msg ="";
 		
 	/* Requisitante */
 
-		
 	if(form.getValue("nome") == ""){
-		throw "campo nome não foi preenchido.";
+		throw i18n.translate("validaNome");
 	}
 	if(form.getValue("email") == ""){
-		msg += "campo Email não foi preenchido.";
+		msg += i18n.translate("validaEmail");
 	}
 	if(form.getValue("telefone") == ""){
-		msg += "campo Telefone não foi preenchido.";
+		msg += i18n.translate("validaTelefone");
 	}
 	if(form.getValue("documentoIdentidade") == ""){
-		msg += "campo Documento de Identidade não foi preenchido.";
+		msg += i18n.translate("validaDocumentoIdentidade");
 	}
 	if(form.getValue("dataNascimento") == ""){
-		msg += "campo Data de Nascimento não foi preenchido.";
+		msg += i18n.translate("validaDataNascimento");
 	}
 	
 	/* Responsaveis */
@@ -26,42 +24,41 @@ function validateForm(form){
 	var responsaveis = form.getChildrenIndexes("responsaveisTabela");
 	
 	if(responsaveis.length == 0) {
-		msg += " O campo Responsáveis não foi informado.";
+		msg += i18n.translate("validaResponsaveis");
 	}
 	
 	/* Ponto Comercial */
 	
 	if(form.getValue("tipoPonto") == ""){
-		msg += "campo Tipo de Ponto não foi preenchido.";
+		msg += i18n.translate("validaTipoPonto");
 	}
 	if(form.getValue("segunda") != "on" && form.getValue("terca") != "on" && form.getValue("quarta") != "on" &&
 		form.getValue("quinta") != "on" && form.getValue("sexta") != "on" && form.getValue("sabado") != "on" 
 			&& form.getValue("domingo") != "on") {
-		msg += "Campo Dias de Funcionamento não foi informado."
+		msg += i18n.translate("validaDiasFuncionamento");
 	}
-	if(form.getValue("Cep") == ""){
-		msg += "campo Cep não foi preenchido.";
+	if(form.getValue("cep") == ""){
+		msg += i18n.translate("validaCep");
 	}
 	if(form.getValue("logradouro") == ""){
-		msg += "campo Logradouro não foi preenchido.";
+		msg += i18n.translate("validaLogradouro");
 	}
-	if(form.getValue("Bairro") == ""){
-		msg += "campo Bairro não foi preenchido.";
+	if(form.getValue("bairro") == ""){
+		msg += i18n.translate("validaBairro");
 	}
-	if(form.getValue("Cidade") == ""){
-		msg += "campo Cidade não foi preenchido.";
+	if(form.getValue("cidade") == ""){
+		msg += i18n.translate("validaCidade");
 	}
-	if(form.getValue("Estado") == ""){
-		msg += "campo Estado não foi preenchido.";
+	if(form.getValue("estado") == ""){
+		msg += i18n.translate("validaEstado");
 	}
 	
 	/* Financeiro */
 
 	if(form.getValue("valor") == ""){
-		msg += "campo Valor não foi preenchido.";
+		msg += i18n.translate("validaValor");
 	}
 
-	
 	if (msg != "")
 	throw msg;
 }
