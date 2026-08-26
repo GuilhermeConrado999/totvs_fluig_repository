@@ -23,3 +23,7 @@
 ## VIDATE FORM (OU DISPLAYFIELDS, OU O QUE VOCE FOR USAR) + **FORMULÁRIO QUE VOCÊ CRIOU** , em seguida um arquivo java script será criado.
 
 <img width="255" height="96" alt="image" src="https://github.com/user-attachments/assets/ddae51d3-9685-4490-b832-9a6816f0482e" />
+
+ ## INTERNACIONALIZAÇÃO COMO FAZER (utilização do i18n):
+
+ <img width="794" height="881" alt="image" src="https://github.com/user-attachments/assets/39f112fe-d283-489c-8875-77165b2a180b" />
