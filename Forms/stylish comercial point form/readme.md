@@ -1,4 +1,14 @@
-# Sobre o Eventos de Fomulários:
+# COMO CRIAR SEU PROJETO EM ETAPAS: 
+
+<img width="699" height="358" alt="image" src="https://github.com/user-attachments/assets/c36f3667-3198-4f04-bd93-30ce758cd688" />
+
+## CRIE O PROJETO FLUIG, APOS CRIADO DENTRO DA PASTA FORMS FICARÁ O FORMULÁRIO.
+
+<img width="233" height="238" alt="image" src="https://github.com/user-attachments/assets/eb913bda-cca5-4c30-b56f-2b83d71ec2b0" />
+
+# ____________________________________________________________________________________________
+
+## Sobre o Eventos de Fomulários:
 
 <img width="695" height="364" alt="image" src="https://github.com/user-attachments/assets/bb552356-2a67-465c-8464-891b01e9557b" />
 
@@ -10,5 +20,6 @@
 
 <img width="625" height="572" alt="image" src="https://github.com/user-attachments/assets/c069e42e-f63b-434d-9b34-3693c2d4c855" />
 
-## VIDATE FORM + **FORMULÁRIO QUE VOCÊ CRIOU**
+## VIDATE FORM + **FORMULÁRIO QUE VOCÊ CRIOU** , em seguida um arquivo java script será criado.
 
+<img width="255" height="96" alt="image" src="https://github.com/user-attachments/assets/ddae51d3-9685-4490-b832-9a6816f0482e" />
