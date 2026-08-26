@@ -6,6 +6,15 @@ Repositório dedicado ao armazenamento, organização e consulta de códigos, sc
 
 ---
 
+## 💻 Pré-Requisitos e Ambiente de Desenvolvimento
+
+Para desenvolver, estruturar e publicar formulários e processos para o TOTVS Fluig utilizando o Eclipse, certifique-se de configurar o ambiente com as versões recomendadas:
+
+*   ☕ **Java Development Kit (JDK) 8** — Essencial para garantir a compatibilidade com a execução dos serviços e ferramentas de integração do Fluig.
+*   🛠️ **Eclipse IDE (Versão 2019)** — Ambiente de desenvolvimento integrado utilizado para a construção e publicação dos projetos via Fluig Studio.
+
+---
+
 ## 🔗 Links Oficiais e Documentação
 
 Para consultas rápidas, padrões de desenvolvimento e diretrizes da plataforma, acesse os recursos oficiais abaixo:
