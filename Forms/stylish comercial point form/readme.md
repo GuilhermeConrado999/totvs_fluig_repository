@@ -20,6 +20,6 @@
 
 <img width="625" height="572" alt="image" src="https://github.com/user-attachments/assets/c069e42e-f63b-434d-9b34-3693c2d4c855" />
 
-## VIDATE FORM + **FORMULÁRIO QUE VOCÊ CRIOU** , em seguida um arquivo java script será criado.
+## VIDATE FORM (OU DISPLAYFIELDS, OU O QUE VOCE FOR USAR) + **FORMULÁRIO QUE VOCÊ CRIOU** , em seguida um arquivo java script será criado.
 
 <img width="255" height="96" alt="image" src="https://github.com/user-attachments/assets/ddae51d3-9685-4490-b832-9a6816f0482e" />
