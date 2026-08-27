@@ -126,7 +126,7 @@
 			<h3 class="panel-title"><i class="animaliaicon animaliaicon-users-three icon-md" aria-hidden="true"></i> i18n.translate("responsaveis_titulo")</h3>
 		</div>
 		<div class="panel-body">
-			<table tablename="responsaveisTabela" class="table table-hover" addbuttonlabel="i18n.translate('adicionar_responsavel')" addbuttonclass="btn btn-info">
+			<table tablename="responsaveisTabela" class="table table-hover" addbuttonlabel="i18n.translate('adicionar_responsaveis')" addbuttonclass="btn btn-info">
 				<thead>
 					<tr>
 						<th>i18n.translate("responsaveis")</th>
@@ -183,10 +183,7 @@
 			<div class="row">
 				<div class="form-group col-md-2">
 					<label for="moeda">Moeda</label>
-					<select name="moeda" id="moeda" class="form-control">
-						<option value="Real">Real</option>
-						<option value="Dolar Americano">Dolar Americano</option>
-						<option value="Peso Uruguaio">Peso Uruguaio</option>
+					<select name="moeda" id="moeda" class="form-control" dataset="dsMoedas" datasetkey="simbolo" datasetvalue="nomeMoeda">
 					</select>
 				</div>
 				<div class="form-group col-md-2">
