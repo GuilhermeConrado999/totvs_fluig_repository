@@ -27,3 +27,7 @@
  ## INTERNACIONALIZAÇÃO COMO FAZER (utilização do i18n):
 
  <img width="794" height="881" alt="image" src="https://github.com/user-attachments/assets/39f112fe-d283-489c-8875-77165b2a180b" />
+
+ ## CRIAÇÃO DE DATASETS (DATASET CUSTOMIZADO FLUIG)
+
+<img width="733" height="774" alt="image" src="https://github.com/user-attachments/assets/aa98aa6f-c6f7-4ad4-89f8-42b87f10e20f" />
