@@ -126,10 +126,10 @@
 			<h3 class="panel-title"><i class="animaliaicon animaliaicon-users-three icon-md" aria-hidden="true"></i> i18n.translate("responsaveis_titulo")</h3>
 		</div>
 		<div class="panel-body">
-			<table tablename="responsaveis_tabela" class="table table-hover" addbuttonlabel="i18n.translate('adicionar_responsavel')" addbuttonclass="btn btn-info">
+			<table tablename="responsaveis_tabela" class="table table-hover" addbuttonlabel="+" addbuttonclass="btn btn-info">
 				<thead>
 					<tr>
-						<th>i18n.translate("adicionar_responsavel")</th>
+						<th>i18n.translate("responsaveis_titulo")</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -142,23 +142,19 @@
 									id="responsavel"
 									name="responsavel"
 									data-zoom="{
-										'displayKey': 'colleagueName',
-										'datasetId': 'colleague',
+										'displayKey': 'nome',
+										'datasetId': 'dsResponsaveis',
 										'maximumSelectionLength': '2',
-										'placeholder': 'i18n.translate('escolha_usuario')',
+										'placeholder': 'Escolha o usuário',
 										'fields': [
 											{
-												'field': 'colleagueId',
+												'field': 'login',
 												'label': 'ID'
 											},
 											{
-												'field': 'colleagueName',
+												'field': 'nome',
 												'label': 'Nome',
 												'standard': 'true'
-											},
-											{
-												'field': 'login',
-												'label': 'Login'
 											}
 										]
 									}"
@@ -183,212 +179,7 @@
 			<div class="row">
 				<div class="form-group col-md-2">
 					<label for="moeda">Moeda</label>
-					<select name="moeda" id="moeda" class="form-control" dataset="dsMoedas" datasetkey="simbolo" datasetvalue="nomeMoeda">
-					</select>
-				</div>
-				<div class="form-group col-md-2">
-					<label for="valor">i18n.translate("valor")</label>
-					<input type="number" name="valor" id="valor" class="form-control">
-				</div>
-			</div>
-		</div>
-	</div>
-
-</form>
-</div>
-</body>
-<!-- Scripts Externos e Inicialização de Componentes -->
-<script type="text/javascript" src="cep.js"></script>
-<script type="text/javascript">
-	// Inicializa o calendário do Fluig para o campo de data de nascimento
-	var calendarioDataNascimento = FLUIGC.calendar('#dataNascimento');
-</script>
-</html><html>
-<head>
-	<!-- Estilos e Scripts do Fluig Style Guide e jQuery -->
-	<link type="text/css" rel="stylesheet" href="/style-guide/css/fluig-style-guide-flat.min.css"/>
-	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
-	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
-	<script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
-</head>
-<body>
-<div class="fluig-style-guide">
-<form name="form" role="form">
-
-	<!-- ========================================== -->
-	<!-- PAINEL: REQUISITANTE                       -->
-	<!-- ========================================== -->
-	<div class="panel panel-primary">
-		<div class="panel-heading">
-			<h3 class="panel-title"><i class="animaliaicon animaliaicon-user icon-md" aria-hidden="true"></i> i18n.translate("requisitante_titulo")</h3>
-		</div>
-		<div class="panel-body">
-			<!-- Linha 1: Nome, Email, Telefone -->
-			<div class="row">
-				<div class="form-group col-md-6">
-					<label for="nome">i18n.translate("nome")</label>
-					<input type="text" name="nome" id="nome" class="form-control">
-				</div>
-				<div class="form-group col-md-4">
-					<label for="email">i18n.translate("email")</label>
-					<input type="email" name="email" id="email" class="form-control">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="telefone">i18n.translate("telefone")</label>
-					<input type="text" name="telefone" id="telefone" class="form-control">
-				</div>
-			</div>
-			<!-- Linha 2: Data de Nascimento e Documento de Identidade -->
-			<div class="row">
-				<div class="form-group col-md-2">
-					<label for="dataNascimento">i18n.translate("data_nascimento")</label>
-					<input type="text" name="dataNascimento" id="dataNascimento" class="form-control">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="documentoIdentidade">i18n.translate("documento_identidade")</label>
-					<input type="text" name="documentoIdentidade" id="documentoIdentidade" class="form-control">
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<!-- ========================================== -->
-	<!-- PAINEL: PONTO COMERCIAL                    -->
-	<!-- ========================================== -->
-	<div class="panel panel-primary">
-		<div class="panel-heading">
-			<h3 class="panel-title"><i class="animaliaicon animaliaicon-map-pin icon-md" aria-hidden="true"></i> i18n.translate("ponto_comercial_titulo")</h3>
-		</div>
-		<div class="panel-body">
-			<!-- Linha 1: Responsável, Tipo do Ponto e Dias de Funcionamento -->
-			<div class="row">
-				<div class="form-group col-md-6">
-					<label>i18n.translate("responsavel")</label>
-				</div>	    
-				<div class="form-group col-md-2">
-					<label for="tipoPonto">i18n.translate("tipo_ponto")</label>
-					<div class="radio">
-						<label><input type="radio" name="tipoPonto" value="quiosque">i18n.translate("quiosque")</label>
-						<label><input type="radio" name="tipoPonto" value="loja">i18n.translate("loja")</label>
-					</div>
-				</div>
-				<div class="form-group col-md-4">
-					<label>i18n.translate("dias_funcionamento")</label>
-					<div class="checkbox">
-						<label><input type="checkbox" name="domingo">i18n.translate("dom")</label>
-						<label><input type="checkbox" name="segunda">i18n.translate("seg")</label>
-						<label><input type="checkbox" name="terca">i18n.translate("ter")</label>
-						<label><input type="checkbox" name="quarta">i18n.translate("qua")</label>
-						<label><input type="checkbox" name="quinta">i18n.translate("qui")</label>
-						<label><input type="checkbox" name="sexta">i18n.translate("sex")</label>
-						<label><input type="checkbox" name="sabado">i18n.translate("sab")</label>
-					</div>
-				</div>
-			</div>
-			<!-- Linha 2: Endereço (CEP, Logradouro, Número, Bairro, Cidade, Estado) -->
-			<div class="row">
-				<div class="form-group col-md-3">
-					<label for="cep">i18n.translate("cep")</label>
-					<input type="text" name="cep" id="cep" class="form-control" mask="00000-000">
-				</div>
-				<div class="form-group col-md-3">
-					<label for="logradouro">i18n.translate("logradouro")</label>
-					<input type="text" name="logradouro" id="logradouro" class="form-control">
-				</div>
-				<div class="form-group col-md-1">
-					<label for="numero">i18n.translate("numero")</label>
-					<input type="text" name="numero" id="numero" class="form-control">
-				</div>
-				<div class="form-group col-md-3">
-					<label for="bairro">i18n.translate("bairro")</label>
-					<input type="text" name="bairro" id="bairro" class="form-control">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="cidade">i18n.translate("cidade")</label>
-					<input type="text" name="cidade" id="cidade" class="form-control">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="estado">i18n.translate("estado")</label>
-					<input type="text" name="estado" id="estado" class="form-control">
-				</div>
-			</div>
-			<!-- Linha 3: Informações Adicionais -->
-			<div class="row">
-				<div class="form-group col-md-12">
-					<label for="informacoes">i18n.translate("informacoes_adicionais")</label>
-					<textarea rows="5" name="informacoes" id="informacoes" class="form-control"></textarea>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- ========================================== -->
-	<!-- PAINEL: RESPONSÁVEIS (TABELA PAI/FILHO)    -->
-	<!-- ========================================== -->
-	<div class="panel panel-primary">
-		<div class="panel-heading">
-			<h3 class="panel-title"><i class="animaliaicon animaliaicon-users-three icon-md" aria-hidden="true"></i> i18n.translate("responsaveis_titulo")</h3>
-		</div>
-		<div class="panel-body">
-			<table tablename="responsaveis_tabela" class="table table-hover" addbuttonlabel="i18n.translate('adicionar_responsavel')" addbuttonclass="btn btn-info">
-				<thead>
-					<tr>
-						<th>i18n.translate("adicionar_responsavel")</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<div class="form-group" style="margin-bottom: 0px;">
-								<!-- Campo Zoom do Fluig integrado na tabela -->
-								<input
-									type="zoom"
-									id="responsavel"
-									name="responsavel"
-									data-zoom="{
-										'displayKey': 'colleagueName',
-										'datasetId': 'colleague',
-										'maximumSelectionLength': '2',
-										'placeholder': 'i18n.translate('escolha_usuario')',
-										'fields': [
-											{
-												'field': 'colleagueId',
-												'label': 'ID'
-											},
-											{
-												'field': 'colleagueName',
-												'label': 'Nome',
-												'standard': 'true'
-											},
-											{
-												'field': 'login',
-												'label': 'Login'
-											}
-										]
-									}"
-								/>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<div class="row"></div>
-		</div>
-	</div>
-
-	<!-- ========================================== -->
-	<!-- PAINEL: FINANCEIRO                         -->
-	<!-- ========================================== -->
-	<div class="panel panel-primary">
-		<div class="panel-heading">
-			<h3 class="panel-title"><i class="animaliaicon animaliaicon-money-wavy icon-md" aria-hidden="true"></i> i18n.translate("financeiro_titulo")</h3>
-		</div>
-		<div class="panel-body">
-			<div class="row">
-				<div class="form-group col-md-2">
-					<label for="moeda">Moeda</label>
-					<select name="moeda" id="moeda" class="form-control" dataset="dsMoedas" datasetkey="simbolo" datasetvalue="nomeMoeda">
+					<select name="moeda" id="moeda" class="form-control" dataset="dsMoedas" datasetkey="moeda" datasetvalue="simbolo">
 					</select>
 				</div>
 				<div class="form-group col-md-2">
