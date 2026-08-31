@@ -24,6 +24,8 @@
 
 <img width="255" height="96" alt="image" src="https://github.com/user-attachments/assets/ddae51d3-9685-4490-b832-9a6816f0482e" />
 
+# ____________________________________________________________________________
+
  ## INTERNACIONALIZAÇÃO COMO FAZER (utilização do i18n):
 
  <img width="794" height="881" alt="image" src="https://github.com/user-attachments/assets/39f112fe-d283-489c-8875-77165b2a180b" />
@@ -32,6 +34,13 @@
 
 <img width="733" height="774" alt="image" src="https://github.com/user-attachments/assets/aa98aa6f-c6f7-4ad4-89f8-42b87f10e20f" />
 
+# ____________________________________________________________________________
+
 ## PROCESSOS NO FLUIG: Crie em "Novo diagrama Fluig"
 
 <img width="748" height="799" alt="image" src="https://github.com/user-attachments/assets/6cd13fa9-3aba-4235-9be7-5ad70c37da7d" />
+
+## SERÁ CRIADA UMA NOVA ESTRUTURA JUNTO COM UMA NOVA PASTA CHAMADA WORKFLOW, VOCE ACHA O .PROCESS DETRO DE DIAGRAMS
+
+<img width="1536" height="496" alt="image" src="https://github.com/user-attachments/assets/6dcc96f7-030c-4312-a9ed-924e3715a54d" />
+
