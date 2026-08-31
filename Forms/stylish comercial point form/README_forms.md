@@ -31,3 +31,7 @@
  ## CRIAÇÃO DE DATASETS (DATASET CUSTOMIZADO FLUIG)
 
 <img width="733" height="774" alt="image" src="https://github.com/user-attachments/assets/aa98aa6f-c6f7-4ad4-89f8-42b87f10e20f" />
+
+## PROCESSOS NO FLUIG: Crie em "Novo diagrama Fluig"
+
+<img width="748" height="799" alt="image" src="https://github.com/user-attachments/assets/6cd13fa9-3aba-4235-9be7-5ad70c37da7d" />
