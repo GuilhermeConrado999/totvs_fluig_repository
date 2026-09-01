@@ -21,4 +21,9 @@
 
 <img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/4d8299d1-6532-42e9-a093-ff125dcb9771" />
 
+## E PARA SE CONECTAR AO SERVIDOR DO LAB DO FLUIG, AQUI VAI AS INFORMAÇÕES QUE VOCÊ PRECISA:
+
+<img width="546" height="270" alt="image" src="https://github.com/user-attachments/assets/a8b5e21d-286f-455e-a972-f62da60f89e1" />
+
+
 
