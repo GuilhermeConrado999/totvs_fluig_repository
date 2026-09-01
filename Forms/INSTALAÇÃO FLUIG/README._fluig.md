@@ -8,3 +8,8 @@
 # PARA INSTALAR O PLUGIN DO FLUIG, VOCE PRIMEIRO VAI CLICAR EM HELP E INSTALL NEW SOFTWARE
 
 <img width="783" height="491" alt="image" src="https://github.com/user-attachments/assets/58a97de1-3996-4afd-8cb7-78448545807e" />
+
+# DENTRO DA JANELA QUE ABRIR COPIE A URL https://update.fluig.com E COLE NO WORK WITH E DE ENTER
+
+<img width="940" height="722" alt="image" src="https://github.com/user-attachments/assets/1645acf8-258f-4590-98ca-918cab37c9d2" />
+
