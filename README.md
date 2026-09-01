@@ -11,7 +11,9 @@ Repositório dedicado ao armazenamento, organização e consulta de códigos, sc
 Para desenvolver, estruturar e publicar formulários e processos para o TOTVS Fluig utilizando o Eclipse, certifique-se de configurar o ambiente com as versões recomendadas:
 
 *   ☕ **Java Development Kit (JDK) 8** — Essencial para garantir a compatibilidade com a execução dos serviços e ferramentas de integração do Fluig.
+*   https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html  
 *   🛠️ **Eclipse IDE (Versão 2019)** — Ambiente de desenvolvimento integrado utilizado para a construção e publicação dos projetos via Fluig Studio.
+*   https://www.eclipse.org/downloads/packages/release/2019-09/r/eclipse-ide-enterprise-java-developers
 
 ---
 
