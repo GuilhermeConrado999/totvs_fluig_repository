@@ -17,3 +17,8 @@
 
 <img width="673" height="696" alt="image" src="https://github.com/user-attachments/assets/edeced3f-16c4-4f35-b784-d041618bf62d" />
 
+# E PRONTO, AGORA SEU ECLIPSE JA ESTÁ CONFIGURADO COM O FLUIG E PRONTO PARA USO.
+
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/4d8299d1-6532-42e9-a093-ff125dcb9771" />
+
+
