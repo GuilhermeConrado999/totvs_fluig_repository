@@ -44,3 +44,16 @@
 
 <img width="1536" height="496" alt="image" src="https://github.com/user-attachments/assets/6dcc96f7-030c-4312-a9ed-924e3715a54d" />
 
+# ____________________________________________________________________________
+
+## CRIAÇÃO DE MECANISMO: CLIQUE EM NEW, DEPOIS EM ORDER
+
+<img width="817" height="800" alt="image" src="https://github.com/user-attachments/assets/573f0655-4e38-48aa-971e-3b08ab0fe36c" />
+
+## CLIQUE EM FLUIG DEPOIS EM MECANISMO CUSTOMIZADO
+
+<img width="574" height="541" alt="image" src="https://github.com/user-attachments/assets/07ff04ca-6202-4c4a-9008-cc5c2fd3f4bf" />
+
+
+
+
