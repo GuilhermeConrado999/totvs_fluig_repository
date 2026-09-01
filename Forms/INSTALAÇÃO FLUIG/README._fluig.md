@@ -13,3 +13,7 @@
 
 <img width="940" height="722" alt="image" src="https://github.com/user-attachments/assets/1645acf8-258f-4590-98ca-918cab37c9d2" />
 
+# APOS DAR O ENTER APENAS CLIQUE EM NEXT EM SEGUIDA ELE VAI PEDIR PARA REINICIAR A IDE, LOGO EM SEGUIDA VOCE VAI TROCAR A PERSPECTIVA PARA O FLUIG CLICANDO NO ICONE QUE EU MARQUEI EM VERMELHO E ESCOLHENDO A OPÇÃO FLUIG
+
+<img width="673" height="696" alt="image" src="https://github.com/user-attachments/assets/edeced3f-16c4-4f35-b784-d041618bf62d" />
+
